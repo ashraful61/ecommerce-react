@@ -12,7 +12,22 @@
 
 .cart-container {
   background: rgba(255, 153, 0, 0.3);
-
+}
+.cart-container a {
+    width: 170px;
+    padding:  14px 0;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgb(157, 255, 0);
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1100px) {
